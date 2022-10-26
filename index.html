@@ -8,89 +8,103 @@
     <title>Admin Dashboard</title>
 </head>
 <body>
-    <header>
-        <div class="first-wrapper">
-            <div class="logo">
-                <img src="./img/logo.png" alt="" srcset="" class="logo-logo"> Rubik's
+   
+        <header>
+            <div class="first-wrapper">
+                <div class="logo">
+                    <img src="./img/logo.png" alt="" srcset="" class="logo-logo"> Rubik's
+                </div>
+                <div class="search-section">
+                    <img src="./img/search.png" class="search-icon" alt="" srcset="">
+                    <input type="text" name="search-bar" id="search-bar" placeholder="Search...">
+                </div>
+                <div class="user-loggin">
+                    <img src="./img/bell.png" alt="" srcset="" class="notification-icon">
+                    <img src="./img/man.png" alt="" srcset="" class="avatar-icon">
+                    <div class="login-panel">
+                        <div class="user-name">Eduardo Lamarche</div>
+                        <a href="#" class="logout-button">Log out</a>
+                    </div>
+                </div>
             </div>
-            <div class="search-section">
-                <img src="./img/search.png" class="search-icon" alt="" srcset="">
-                <input type="text" name="search-bar" id="search-bar">
+        </header>
+        <div class="container">
+            <div class="second-wrapper">
+                <div class="greeting-message"> 
+                    <img src="./img/man.png" alt="" srcset="" class="second-avatar">
+                    <div class="user-name">
+                        <p>Hi there,</p>
+                        <h6>Eduardo Lamarche</h6>
+                    </div>
+                </div>
+                <div class="second-second-wrapper">
+                    <div class="new-button">New</div>
+                    <div class="upload-button">Upload</div>
+                    <div class="share-button">Share</div>
+                </div>
+                
             </div>
-            <div class="notification-icon"></div>
-            <div class="avatar"></div>
-            <div class="user-name">Eduardo Lamarche</div>
-        </div>
-        <div class="second-wrapper">
-            <div class="second-avatar"></div>
-            <div class="greeting-message">Hi there,</div>
-            <div class="user-name">Eduardo Lamarche</div>
-            <div class="new-button">New</div>
-            <div class="upload-button">Upload</div>
-            <div class="share-button">Share</div>
-        </div>
-    </header>
-    <nav>
-        <ul>
-            <li>Dashboard</li>
-            <li>Inventory</li>
-            <li>Favorites</li>
-            <li>Shipping</li>
-            <li>Tasks</li>
-            <li>Clients</li>
-        </ul>
+            <nav class="nav-bar">
+                <ul id="menu">
+                    <li>Dashboard</li>
+                    <li>Inventory</li>
+                    <li>Favorites</li>
+                    <li>Shipping</li>
+                    <li>Tasks</li>
+                    <li>Clients</li>
+                </ul>
 
-        <ul>
-            <li>Settings</li>
-            <li>Support</li>
-            <li>Privacy</li>
-        </ul>
-    </nav>
-    <section>
-        <div class="third-wrapper">
-            <h3 class="title">Dashboard</h3>
-            <div class="card">
-                <h4>Total Users</h4>
-                <div class="card-icon"></div>
-                <div class="card-number">50,439</div>
-                <div class="card-growth">
-                    <div class="growth-icon"></div>
-                    <p><span class="growth-percentage">4.9%</span>Up from last week</p>
+                <ul>
+                    <li>Settings</li>
+                    <li>Support</li>
+                    <li>Privacy</li>
+                </ul>
+            </nav>
+            <section>
+                <div class="third-wrapper">
+                    <h3 class="title">Dashboard</h3>
+                    <div class="card">
+                        <h4>Total Users</h4>
+                        <div class="card-icon"></div>
+                        <div class="card-number">50,439</div>
+                        <div class="card-growth">
+                            <div class="growth-icon"></div>
+                            <p><span class="growth-percentage">4.9%</span>Up from last week</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4>Total Orders</h4>
+                        <div class="card-icon"></div>
+                        <div class="card-number">10,511</div>
+                        <div class="card-growth">
+                            <div class="growth-icon"></div>
+                            <p><span class="growth-percentage">2.5%</span>Up from last week</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4>Total Sales</h4>
+                        <div class="card-icon"></div>
+                        <div class="card-number">USD$ 890,562</div>
+                        <div class="card-growth">
+                            <div class="growth-icon"></div>
+                            <p><span class="growth-percentage">4.3%</span>Down from last week</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4>Total Pending</h4>
+                        <div class="card-icon"></div>
+                        <div class="card-number">2,791</div>
+                        <div class="card-growth">
+                            <div class="growth-icon"></div>
+                            <p><span class="growth-percentage">0.9%</span>Down from last week</p>
+                        </div>
+                    </div>
+                    <div class="sales-detail">
+                        <!-- Investigate how to add fake graphics to a html file-->
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <h4>Total Orders</h4>
-                <div class="card-icon"></div>
-                <div class="card-number">10,511</div>
-                <div class="card-growth">
-                    <div class="growth-icon"></div>
-                    <p><span class="growth-percentage">2.5%</span>Up from last week</p>
-                </div>
-            </div>
-            <div class="card">
-                <h4>Total Sales</h4>
-                <div class="card-icon"></div>
-                <div class="card-number">USD$ 890,562</div>
-                <div class="card-growth">
-                    <div class="growth-icon"></div>
-                    <p><span class="growth-percentage">4.3%</span>Down from last week</p>
-                </div>
-            </div>
-            <div class="card">
-                <h4>Total Pending</h4>
-                <div class="card-icon"></div>
-                <div class="card-number">2,791</div>
-                <div class="card-growth">
-                    <div class="growth-icon"></div>
-                    <p><span class="growth-percentage">0.9%</span>Down from last week</p>
-                </div>
-            </div>
-            <div class="sales-detail">
-                <!-- Investigate how to add fake graphics to a html file-->
-            </div>
-        </div>
-    </section>
-    <footer></footer>
+            </section>
+    </div>
 
     <script src="./script.js"></script>
 </body>
